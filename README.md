@@ -1,7 +1,13 @@
 # Aruco for holobot detection
 
-Installation needs python3, all package requirements are listed in requirements.txt
-Tested on Ubuntu 18.04
+
+
+Installation needs python3 and opencv. To install opencv:
+```
+sudo apt-get install python3-opencv
+```
+Then, all python packages requirements are listed in requirements.txt
+Tested on Ubuntu 18.04 and Raspbian
 
 Files:
 
