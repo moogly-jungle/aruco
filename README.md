@@ -1,6 +1,7 @@
 # Aruco for holobot detection
 
 
+## Installation
 
 Installation needs python3 and opencv. To install opencv:
 ```
@@ -9,7 +10,7 @@ sudo apt-get install python3-opencv
 Then, all python packages requirements are listed in requirements.txt
 Tested on Ubuntu 18.04 and Raspbian
 
-Files:
+## Files
 
 * detect_stream.py : this is the server (zmq push) of aruco marker
 poses. It must be launched independently to detect the aruco
@@ -28,7 +29,7 @@ default if do not exists).  Launch it without arguments.
     * get_frequency() gives the frequency of video streaming
     (detect_stream.py must be launched)
 
-Note:
+## Notes
 
 * the camera is supposed to be immobile
 
