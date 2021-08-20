@@ -29,3 +29,11 @@ Note:
 * aruco of ids 0, 5, 25, and 20 define the frame to compute
   poses. They are supposed to be immobile, and visible. They must be
   disposed as a rectangle whose dimension are given in field.py
+
+* a pose is a dictionary of form:
+  ```
+  {
+    'pos' : <pair of 2D coordinates relative to the frame>,
+    'orient' : orientation in degree
+  }
+  ```
