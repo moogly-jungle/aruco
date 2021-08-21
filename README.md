@@ -8,7 +8,8 @@ Installation needs python3 and opencv. To install opencv:
 sudo apt-get install python3-opencv
 ```
 Then, all python packages requirements are listed in requirements.txt
-Tested on Ubuntu 18.04 and Raspbian
+(requirements-raspberry.txt for Raspbian)
+Tested on Ubuntu 18.04 and Raspbian (~5Hz on raspbian, with Logitech C922)
 
 ## Files
 

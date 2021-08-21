@@ -19,7 +19,7 @@ args = vars(ap.parse_args())
 param_file = args['params']
 if not os.path.exists(param_file):
     params = {
-        'webcam_id' : 2,
+        'webcam_id' : 1,
         'dict' : cv2.aruco.DICT_5X5_50,
         'monitor' : False,
         'port' : 1978,
