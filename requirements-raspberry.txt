@@ -1,0 +1,5 @@
+imutils==0.5.4
+numpy==1.21.2
+opencv-contrib-python==4.5.3.56
+pkg_resources==0.0.0
+pyzmq==22.2.1
